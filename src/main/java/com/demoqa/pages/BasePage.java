@@ -31,7 +31,7 @@ public abstract class BasePage {
 
     public void hideIframes() {
         js.executeScript("document.getElementById('fixedban').style.display='none';");
-        js.executeScript("document.guerySelector('footer').style.display='none';");
+        js.executeScript("document.querySelector('footer').style.display='none';");
     }
 
     public void clickWithJS(WebElement element, int x, int y) {
