@@ -18,7 +18,7 @@ public class PracticeFormTests extends TestBase {
 
     @Test
     public void createStudentAccountPositiveTest() {
-//        new PracticeFormPage(driver).hideIframes();
+        new PracticeFormPage(driver).hideIframes();
         new PracticeFormPage(driver).enterPersonalData("Jack", "Sparrow", "jack@jack.com", "1234567890")
                 .selectGender("Male")
                 .typeOfDate("16 August 1987")

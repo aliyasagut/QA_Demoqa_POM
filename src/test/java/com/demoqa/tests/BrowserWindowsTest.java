@@ -16,7 +16,7 @@ public class BrowserWindowsTest extends TestBase{
     }
 
     @Test
-    public void selectNewTagTest() {
+    public void selectNewTabTest() {
         new BrowserWindowsPage(driver).hideIframes();
         new BrowserWindowsPage(driver).switchToNextTab(1).verifyNewTagText("This is a sample page");
     }
